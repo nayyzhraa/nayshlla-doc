@@ -1,0 +1,91 @@
+# COLLSPAN, ROWSPAN HTML
+## Apa Itu Collspan & Rowspan?
+
+**Colspan** atau column span merupakan atribute HTML yang berfungsi untuk menggabungkan
+beberapa kolom, sederhananya menggabungkan kolom ke samping. 
+**Rowspan** merupakan atribut HTML yang fungsi utamanya adalah menggabungkan beberapa 
+baris, sederhananya menggabungkan baris ke bawah.
+* Atribut **rowspan** digunakan untuk menggabungkan baris pada tabel
+* Atribut **colspan** digunakan untuk menggabungkan kolom pada tabel
+
+Atribut tersebut bisa diterapkan pada tag td maupun th. Perhatikan contoh kode program berikut:
+- Colspan
+ ```
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Penggunaan Colspan pada Tabel di HTML</title>
+ </head>
+ <body>
+  <table border="1">
+  <tr>
+   <th colspan="2">Data</th>
+   </tr>
+   <tr>
+   <th>Nama</th>
+   <th>NIM</th>
+  </tr>
+  <tr>
+   <td>Nayshilla zahra</td>
+   <td>12345678</td>
+  </tr>
+  <tr>
+   <td>Nayy</td>
+   <td>12435789</td>
+  </tr>
+  </table>
+  </body>
+  </html>
+  ```
+  Dengan hasil yang ditampilkan:
+  
+  ![image](https://user-images.githubusercontent.com/118778331/213399980-864c6f29-b51e-4dff-b30f-ed0f723c210f.png)
+
+  - Rowspan
+  ```
+  <!DOCTYPE html> <html>
+
+<head>
+
+<title>Penggunaan Rowspan pada Tabel di HTML</title>
+
+</head>
+
+<body>
+
+<table border="1">
+
+<tr>
+
+<th>No </th>
+
+<th>Nama </th> <th>Hobi</th>
+
+</tr>
+
+<tr>
+
+<td rowspan="2">1</td>
+
+<td rowspan="2">Nayshilla zahra</td>
+
+<td>membaca</td>
+
+</tr>
+
+<tr>
+
+<td>futsal</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+```
+Dengan hasil yang ditampilkan:
+
+![image](https://user-images.githubusercontent.com/118778331/213399584-c3f9f24e-c2a1-4c29-b478-54575c0cfd24.png)
+
